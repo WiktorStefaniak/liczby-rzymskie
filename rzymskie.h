@@ -5,6 +5,7 @@
 #ifndef KONWERTER_RZYMSKIE_H
 #define KONWERTER_RZYMSKIE_H
 
-int romanToInt
+int romanToInt(const char *roman);
+void intToRoman(int num, char *result);
 
 #endif //KONWERTER_RZYMSKIE_H
